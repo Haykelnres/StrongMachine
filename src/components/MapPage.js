@@ -17,11 +17,11 @@ export class MapPage extends Component {
                 }}>
                 <div class="map_title_block">
                     <div>
-                        <div>
-                            <img src={logoBot} style={{ width: "auto"}} />
+                        <div class="map_title_logo1">
+                            <img class="map_title_logo1_pic" src={logoBot} style={{ width: "auto", objectFit: "cover", width: "100%"}} />
                         </div>
-                        <div>
-                            <img src={logoBot2} style={{ width: "auto" }} />       
+                        <div class="map_title_logo2">
+                            <img class="map_title_logo2_pic" src={logoBot2} style={{ width: "auto", objectFit: "cover", width: "82%"}} />       
                         </div>
                     </div>
                 </div>

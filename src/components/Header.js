@@ -66,8 +66,10 @@ export class Header extends Component {
                                 </li>
                             </Link>
                             <li class="header_li" onClick={this.scrollToBottom}>Контакты</li>    
+                            {/* 
                             <li class="header_auth_li">Авторизация</li>
                             <li class="header_reg_li">Регистрация</li>
+                            */}
                         </ul>
                     </div>
                 </div>

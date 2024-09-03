@@ -36,7 +36,7 @@ export class RoutePage extends Component {
                                 <p style={{ padding: "20px 0px 0px 50px", fontSize:"14px" }} >Описание</p>
                                 <p style={{ padding: "20px 0px 20px 50px", fontSize: "14px" }} >Подробно</p>
                         </div>
-                        <div style={{ display: "flex", width: "60%", alignItems: "center", margin: "0 auto" }}>
+                        <div class="route_image_block" style={{ display: "flex",  alignItems: "center"}}>
                             <img src={item1} style={{ width: "70%", marginLeft:"auto" }} />
                             </div>
                     </div>
@@ -49,13 +49,14 @@ export class RoutePage extends Component {
                         flexWrap: "wrap",
                         maxWidth: "78%",
                         margin: " 20px auto"
+                        
                     }}>
                         <div style={{ margin: "20px", width: "auto" }}>
                             <p style={{ padding: "20px 145px 40px 50px", color: "rgb(169,122,66)", fontWeight: "bold", fontSize: "20px" }}>Регламентно</p>
                             <p style={{ padding: "20px 0px 0px 50px", fontSize: "14px" }} >Описание</p>
                             <p style={{ padding: "20px 0px 20px 50px", fontSize: "14px" }} >Подробно</p>
                         </div>
-                        <div style={{ display: "flex", width: "60%", alignItems: "center", margin: "0 auto" }}>
+                        <div class="route_image_block"  style={{ display: "flex", alignItems: "center" }}>
                             <img src={item2} style={{ width: "70%", marginLeft: "auto" }} />
                         </div>
                     </div>
@@ -73,7 +74,7 @@ export class RoutePage extends Component {
                             <p style={{ padding: "20px 0px 0px 50px", fontSize: "14px" }} >Описание</p>
                             <p style={{ padding: "20px 0px 20px 50px", fontSize: "14px" }} >Подробно</p>
                         </div>
-                        <div style={{ display: "flex", width: "60%", alignItems: "center", margin: "0 auto" }}>
+                        <div class="route_image_block" style={{ display: "flex",alignItems: "center" }}>
                             <img src={item3} style={{ width: "70%", marginLeft: "auto" }} />
                         </div>
                     </div>
